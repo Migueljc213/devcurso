@@ -1,0 +1,19 @@
+.titulo-vagas{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.grid-vagas{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.row div{
+    padding-bottom: 20px;
+}
+@media(max-width:997px){
+    .grid-vagas div img{
+        display: flex;
+        margin: 0 auto;
+
+
+    }}

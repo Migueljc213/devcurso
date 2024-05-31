@@ -1,0 +1,31 @@
+:root{
+    --cor-princiapl:#4bad6f;   
+}
+*{
+    font-family: "Roboto", sans-serif;;
+}
+
+input{
+    padding: 10px;
+    background-color: #fff;
+    outline: none;
+    
+}
+.button{
+
+    background-color: #10131f;
+    color: #fff;
+    font-family: "Roboto";
+    display: flex;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.button:hover{
+    border: 1px solid #96e1b1;
+}
+.titulos {
+    font-size: 2rem;
+    font-weight: 900;
+}

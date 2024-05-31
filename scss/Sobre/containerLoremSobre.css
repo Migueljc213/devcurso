@@ -1,0 +1,32 @@
+.background-lorem-sobre{
+    height: 100vh;
+}
+.titulo-lorem-sobre{
+    margin-top: 120px;
+    padding-bottom: 30px;
+}
+.container-lorem-sobre{
+    padding: 0 200px;
+}
+.container-lorem-sobre p{
+    margin: 0 100px;
+    }
+    @media (max-width:1200px) {
+        .container-lorem-sobre{
+            padding: 0 20px;
+        }
+    }
+    @media (max-width:756px){
+        .container-lorem-sobre p{
+            margin: 0px;}
+    }
+    @media (max-width:556px){
+        .container-lorem-sobre p{
+            font-size: .8rem;
+        }
+    }
+    @media (max-width:356px){
+        .container-lorem-sobre p{
+            font-size: .7rem;
+        }
+    }

@@ -1,0 +1,55 @@
+
+
+
+.btn-hamburguer{
+    display: none;
+}
+@media (max-width:700px){
+    .btn-hamburguer{
+        display: flex;
+        background: #000;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        text-transform: uppercase;
+        font-family: monospace;
+        font-weight: bold;
+        cursor: pointer;
+        margin: 10px;
+        color: #FFF;
+        align-items: center;
+        position: relative;
+        z-index: 250;
+    } 
+    .btn-hamburguer::before{
+        content: '';
+        margin-right: 0.5rem;
+        display: inline-block;
+        height: 2px;
+        width: 12px;
+        background: #FFF;
+        box-shadow: 0 4px #FFF, 0 -4px #FFF;
+        
+
+    }
+     .btn-hamburguer.active::before{
+        transform: rotate(90deg);
+    }
+     .lista{
+        display: none;
+        position: absolute;
+        background: var(--cor-princiapl);
+        width: 160px;
+        z-index: 200;
+        left: 4px;
+        padding: 20px 0 20px 0;
+        box-shadow: 2px 2px 2px 0 #000;
+    }
+    
+    
+     .lista.active{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 8px;
+    }}

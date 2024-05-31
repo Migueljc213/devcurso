@@ -1,0 +1,125 @@
+header{
+    display: flex;
+    padding-left: 200px;
+    background-color: var(--cor-princiapl);
+    border-top: solid 1px var(--cor-princiapl);
+    box-shadow: 4px 4px 8px #000;
+    z-index: 210;
+    
+}
+.header-right{
+    flex: 1;
+    display: grid;
+}
+.contact-details{
+    padding-right: 20px;
+}
+.contact-details:first-child{
+    font-size: 12px;
+    color: #414140;
+}
+
+.contact-header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #d5d5d5;
+    align-items: center;    
+}
+.social-media-header{
+    display: flex;
+    gap: 10px;
+}
+
+/*Sombra lado esquerdo */
+.menu-header-div{
+    position:relative;
+
+}
+.menu-header-div::after{
+    content: "";
+    position: absolute;
+    left: -0px; 
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent);
+    top: 0;
+    }
+/*----------------------*/
+
+.menu-header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    gap: 30px;
+    padding-left:20px ;
+    flex: 1;
+ 
+}
+
+.menu-header a{
+    color: #FFF;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    
+}
+.menu-header a:hover:after{
+    content: '';
+    width: 100%;
+    top: 40px;
+    height: 8px;
+    display: block;
+    position: absolute;
+    background-color: #000;
+}
+.login img{
+    display: none
+}
+@media (max-width:1076px){
+    .menu-header{
+        font-size: 0.8rem;
+    }
+    header{
+        padding-left: 0;
+    }
+
+}
+@media (max-width:786px){
+    .logo-header{
+        width: 200px;
+        height: 100px;
+    }
+    header{
+        flex-direction: column;
+    }
+    .logo-header{
+        width: auto;
+        height: 115px;
+        display: flex;
+        margin: 0 auto;
+    }
+    .menu-header a:hover:after{
+        top: 20px;
+    }
+}
+
+@media (max-width:436px){
+    .menu-header{
+        flex-wrap: wrap;
+    }
+    .logo-header{
+        width: 300px;
+    }
+
+    .contact-details{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        padding: 10px;
+    }
+}
+
+
+
+

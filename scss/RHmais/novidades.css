@@ -1,0 +1,77 @@
+.background-novidades{
+    background: url(../../img/Fundo.svg);
+    box-sizing: border-box;
+    z-index: 10;
+}
+.container-novidades{
+    padding-bottom: 30px;
+}
+.titulo-novidades{
+    padding: 20px 0;
+
+}
+.grid-novidades div{
+    padding-bottom: 20px;
+}
+
+.pesquisa .seach-bar{
+    padding: 10px;
+    width: 100%;
+    margin-top: 80px;
+    background-color: #99dfb2;
+    border: none;
+    outline: none; 
+
+}
+.pesquisa{
+    display: flex;
+}
+.pesquisa button{
+    background-color: #99dfb2;
+    margin-top: 80px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-mais-vagas{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 100px;
+    padding: 15px 80px;
+    border: 1px solid #fff;
+}
+
+@media(max-width:1200px){
+    .grid-novidades div img{
+        width: 400px;
+        
+        
+    }
+}
+@media(max-width:997px){
+    .grid-novidades div img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 300px;
+    }
+}
+@media(max-width:440px){
+    .grid-novidades div img{
+        width: 280px;
+    }
+    .grid-vagas div img{
+        width: 280px;
+    }
+    .button-mais-vagas{
+        width: 280px;
+    }
+}
