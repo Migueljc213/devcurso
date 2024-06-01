@@ -1,0 +1,15 @@
+.background-contato-sobre{
+    background-color: #fff;
+    height: 80vh;
+}
+
+.titulo-contato-sobre{
+    
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 40px 0;
+    padding-left: 200px;
+}
+.container-contato h2{
+    padding-left: 40px;
+}

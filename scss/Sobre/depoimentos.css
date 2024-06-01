@@ -1,0 +1,51 @@
+.background-depoimentos{
+    width: 1200px;
+    margin: 0 auto;
+}
+.grid-depoimentos{
+    display: flex;
+    margin: 0 auto;
+    gap: 40px;
+    padding: 20px;
+
+}
+.titulo-depoimentos{
+    padding: 30px;
+    padding-left: 200px;
+}
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+   
+}
+.depoimentos::before{
+    content: url(../../img/aspa.svg);
+    position: absolute;
+    width: 30px;
+    display: flex;
+    z-index: 10; 
+    top: 40px;
+    left: -50px;
+    opacity: 0.4;
+}
+.depoimentos img{
+    padding-bottom: 50px;
+}
+.depoimentos p{
+    font-weight: 700;
+    z-index: 1
+}
+@media(max-width:1286px){
+    .background-depoimentos{
+        width: auto;}
+    .grid-depoimentos{
+        flex-wrap: wrap;
+    }
+    .depoimentos::before{
+        top: 40px;
+        left: -90px;
+    }
+}

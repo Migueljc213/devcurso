@@ -1,0 +1,82 @@
+.background-rh{
+    background-color: #FFF;
+    position: relative;
+}
+.aluna-img{
+    position: absolute;
+    right: 200px;
+}
+.container-rh{
+    display: flex;
+    flex-direction: column;
+    background-color: #d5d5d5;
+    height: 80vh;
+    margin: 100px;
+    width: 55vw;
+    padding: 90px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 8px #000;
+}
+.container-rh h1{
+    font-weight: 1100;
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+.button-rh{
+    display: flex;
+    align-self: flex-end;
+    justify-content: end;
+    margin-top: 100px;
+    padding: 16px 80px;
+    border-radius: 0;
+}
+@media(max-width:1200px){
+    .aluna-img{
+        right: 0px;
+    }
+
+    .container-rh{
+        margin: 20px;
+        width: auto;
+    }
+    .container-rh p{
+        font-size: 1rem;
+    
+    }
+    .button-rh{
+        margin-top: 50px;
+        justify-content: center;
+        align-self: center;
+}}
+@media(max-width:976px){
+    .aluna-img{
+        display: none;
+    }
+    .container-rh p{
+        font-size: 0.8rem;
+    }
+    .button-rh{
+        margin-top: 10px;
+    }
+}
+@media(max-width:576px){
+    .container-rh h1{
+        font-size: 1.5rem;
+        padding-bottom: 10px;
+    }
+    .container-rh{
+        padding: 30px;
+    }
+}
+@media(max-width:376px){
+    .button-rh{
+        font-size: 0.8rem;
+        padding: 10px 20px;
+    }
+    .container-rh p{
+        font-size: .7rem;
+    }
+    .container-rh h1{
+        font-size: 1.5rem;
+    }
+}

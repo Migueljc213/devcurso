@@ -1,0 +1,98 @@
+.background-contato{
+    background-color: #d5d5d5;
+    height: 80vh;
+
+}
+.container-contato{
+    width: 1200px;
+    margin: 0 auto;
+}
+.container-contato h1{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.container-contato h2{
+    padding-bottom: 30px;
+}
+.card-contato{
+    background-color: #0f131f;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+.form-contato{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+.form-contato textarea::placeholder{
+    padding: 6px;
+    color: #0f131f;
+    resize: none;
+}
+.form-contato textarea{
+    grid-column: 2;
+    grid-row: 1/4;
+    padding-left: 10px;
+    
+}
+.endereco{
+    display: flex;
+    justify-content: space-between;
+}
+.endereco p{
+    color: #fff;
+   
+}
+.endereco button{
+    padding: 6px 40px;
+    background-color: #95e1b1;
+    border: solid 2px #0f131f ;
+    cursor: pointer;
+}
+@media(max-width:1230px){
+    .container-contato{
+        width: auto;
+}
+    .form-contato{
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding-bottom: 20px;
+    }
+    .form-contato textarea{
+        grid-column: 1;
+        grid-row: 5;
+        padding-left: 10px;
+        
+    }
+    .card-contato{
+        width: 100%;
+    }
+}
+@media(max-width:450px){
+    .endereco{
+        flex-wrap: wrap;
+    }
+    .endereco p{
+        font-size: 0.5rem;
+        color: #fff;
+       
+    }
+    .container-contato h1{
+        padding-top: 60px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        font-size: 1.5rem;
+    }
+    .container-contato h2{
+        padding-bottom: 20px;
+        padding-left: 10px;
+        font-size: 1rem;
+    }
+    .endereco button{
+        margin: 0 auto;
+        margin-top: 10px;
+        display: flex;
+    }
+}
+
