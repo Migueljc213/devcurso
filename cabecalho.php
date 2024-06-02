@@ -86,7 +86,7 @@ if($url == "contatos"){
 <body id="wrapper">
 
     <header>
-        <a href="./index.html"> <img class="logo-header" src="./img/logo.png" alt="logo" height="115px"></a>
+        
         <div class="header-right">
             <div class="contact-header">
                 <div class="contact-details">
@@ -105,13 +105,14 @@ if($url == "contatos"){
                     </ul>
                 </div>
             </div>
-
+            
             <div class="menu-header-dilistav">
+            <a href="./index.php"> <img class="logo-header" src="./img/logo.png" alt="logo" height="115px"></a>
                 <button class="btn-hamburguer" aria-expanded="false" aria-controls="menu">Menu</button>
                 <ul class="menu-header lista" >
-                  <li><a href="./sobre.html">SOBRE NÓS</a></li>
-                    <li><a href="./cursos.html">CURSOS</a></li>
-                    <li><a href="./rhmais.html">RH MAIS</a></li>
+                  <li><a href="./sobre.php">SOBRE NÓS</a></li>
+                    <li><a href="./cursos.php">CURSOS</a></li>
+                    <li><a href="./rhmais.php">RH MAIS</a></li>
                     <li class="login">
                         <a href="/"> ENTRE / INSCREVA-SE</a>
                     </li>

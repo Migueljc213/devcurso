@@ -16,13 +16,8 @@ require_once("cabecalho.php");
                 </div>
                 <form class="register-form" action="/" method="post">
                     <input type="text" name="nome-register" id="nome-register" placeholder="Nome" required></input>
-                    <input type="number" name="cpf" id="cpf" placeholder="CPF" required></input>
-                    <input type="text" name="empresa" id="empresa" placeholder="Empresa"></input>
-                    <input type="number" name="cnpj" id="cnpj" placeholder="CNPJ" required></input>
-                    <input type="text" name="treinamento" id="treinamento" placeholder="Treinamento"></input>
                     <input type="text" name="contato" id="contato" placeholder="Contato + DDD" required></input>
                     <input type="email" name="email-register" id="email-register" placeholder="Email" required></input>
-                    <input type="text" name="interesse" id="" placeholder="Área de interesse"></input>
                     <button class="button register-button" type="submit">Enviar</button>
                 </form>
             </div>

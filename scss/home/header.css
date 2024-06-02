@@ -1,7 +1,7 @@
 header{
     display: flex;
     padding-left: 200px;
-    background-color: var(--cor-princiapl);
+    background-color:  var(--cor-princiapl);
     border-top: solid 1px var(--cor-princiapl);
     box-shadow: 4px 4px 8px #000;
     z-index: 210;
