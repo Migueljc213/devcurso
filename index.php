@@ -11,8 +11,8 @@ require_once("cabecalho.php");
             
             <div class="container-register">
                 <div class="titulo-register">
-                    <img src="./img/iconeForm.png" alt="" width="30px" height="30px">
-                    <h1 class="titulo-register">Gostaria de receber as últimas notícias? Inscreva-se agora!</h1>
+                    <img src="./img/iconeForm.png" alt="" width="40px" height="40px">
+                    <h1 >Gostaria de receber as últimas notícias? Inscreva-se agora!</h1>
                 </div>
                 <form class="register-form" action="/" method="post">
                     <input type="text" name="nome-register" id="nome-register" placeholder="Nome" required></input>
