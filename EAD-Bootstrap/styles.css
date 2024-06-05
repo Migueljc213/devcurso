@@ -33,12 +33,36 @@ input:hover{
 .background{
     overflow: hidden !important;
 }
-
+.depoimento{
+    position: relative;
+}
+.depoimento::after{
+    position: absolute;
+    content: url(./img/aspa.svg) ;
+    width: 15px;
+    display: inline;
+    height: 15px;
+    top: 0;
+    left: -100px;
+    opacity: 0.5;
+    z-index: -1;
+}
 @media(max-width:1400px){
     .background-sobre-custom{
         width:auto !important;
     }
     .background-sobre-custom img{
+        display: none;
+    }
+}
+@media(max-width:1200px){
+    .background-cursos-custom img{
+        display: none;
+    }
+    
+}
+@media(max-width:992px){
+    .background-lorem-custom img{
         display: none;
     }
 }
@@ -49,6 +73,13 @@ input:hover{
     .footer-logo{
         display: none;
     }
+    .background-cursos-custom h1{
+        font-size: 2.5rem !important;
+    }
+    .depoimento::after{
+        display: none;
+    }
+  
 }
 @media (max-width:576px) {
     .background-sobre-custom p{
@@ -56,6 +87,9 @@ input:hover{
     }
     .novidades-imagem img{
         width: 280px;
+    }
+    .font-lorem-custom p{
+        font-size: 0.7rem !important;
     }
 }
 @media (max-width:376px){

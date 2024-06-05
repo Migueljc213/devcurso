@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid py-0" style="background-color: #d5d5d5;">
+      <div class="row d-flex justify-content-end ">
+        <div class="d-flex pb-2 justify-content-center col col-lg-2 col-lg-2" style="text-align: end;">
+          <p class="m-0">example@example.com<br>
+            <strong>(21) 00000-0000</strong>
+          </p>
+        </div>
+        <div class="col col-lg-2 col-lg-2 d-flex pb-2 justify-content-center align-items-center cursor-pointer">
+          <img src="./img/facebook.png" alt="Facebook" width="30" height="30" class="me-3">
+          <img src="./img/whatsapp.png" alt="whatsapp" width="30" height="30" class="me-3">
+          <img src="./img/instagram.png" alt="Instagram" width="30" height="30">
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg  p-0" style="background-color: #4bad6f;">
+      <div class="container justify-content-center">
+        <a class="navbar-brand p-0 d-flex justify-content-center" href="#">
+          <img src="./img/logo.png" alt="Logo" width="300" height="110">
+        </a>
+        <div class="d-flex p-2">
+          <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+          <ul class="navbar-nav menu-header">
+            <li class="nav-item">
+              <a class="nav-link text-white fs-6 fw-bold" href="#">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-6 fw-bold" href="#">Cursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-6 fw-bold" href="#">RH Mais</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-6 fw-bold" href="#">Entrar/Inscreva-se</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="background" style="background-image: url(./img/BannerFundoCursos.svg); height: 100vh; position: relative;">
+    <div class=" container d-flex background-cursos-custom ">
+        <div class="">
+          <img src="./img/BannerlayerCursos.svg" alt="">
+        </div>
+        <div class="mt-5"> 
+          <h1 class="fw-bold" style="color: #fff; font-size: 3.4rem; margin-top: 100px;" >Descubra o curso
+            que melhor se encaixa <br>
+            em <strong style="color: #4bad6f;">seus objetivos.</strong></seus></h1>
+        </div>
+    </div>
+  </section>
+
+  
+
+
+  <section class="background" style="background:#fff; height: auto;">
+    <div class="container-md ">
+      <div class="mt-5">
+        <h1 class=" py-2 py-md-4 fw-bold fs-4 mx-3 ">VAGAS</h1>
+      </div>
+      <div class="row g-3 mt-3 p-2 text-center">
+        <div class="col-md-6 col-xl-3">
+          <img src="./img/cursos-img01.png" alt="" width="250">
+        </div>
+        <div class="col-md-6 col-xl-3">
+          <img src="./img/cursos-img02.png" alt="" width="250">
+        </div>
+        <div class="col-md-6 col-xl-3">
+          <img src="./img/cursos-img03.png" alt="" width="250">
+        </div>
+        <div class="col-md-6 col-xl-3">
+          <img src="./img/cursos-img04.png" alt="" width="250">
+        </div>
+        
+      </div>
+      <div class="row g-3 mt-3 p-2 text-center">
+        <div class="col-md-6 col-xl-3">
+          <img src="./img/cursos-img01.png" alt="" width="250">
+        </div>
+        <div class="col-md-6 col-xl-3">
+          <img src="./img/cursos-img02.png" alt="" width="250">
+        </div>
+        <div class="col-md-6 col-xl-3">
+          <img src="./img/cursos-img03.png" alt="" width="250">
+        </div>
+        <div class="col-md-6 col-xl-3">
+          <img src="./img/cursos-img04.png" alt="" width="250">
+        </div>
+        
+      </div>
+      <div class="col text-center text-sm-right align-items-center  my-4 "style="text-align: end;">
+        <a href="sobre.php" type="submit" class="btn px-5" style="background-color: #10131f; color: #fff; ">MAIS VAGAS</a>
+      </div>
+    </div>
+  </section>
+
+
+  
+  
+ 
+
+
+  <footer class="background" style="background-color: #96e1b1;">
+  <div class="container-md">
+    <div class="row align-items-center">
+      <div class="col-md-4">
+        <img class="footer-logo" src="./img/Logoverde.png" alt="" width="100" height="150px" style="width: 100%;">
+      </div>
+      <div class="col mt-3">
+        <p ><img class="mx-2" src="./img/local.png" alt="" width="20" height="20">VOLTA REDONDA - R. Crispim Assis Pereira, 175 - São Geraldo, Volta Redonda - RJ, 27253-520</p>
+        <div class="row ">
+          <p class="col-12 col-lg-4 d-flex align-items-center nowrap " > <img class="mx-2" src="./img/telephone-call.png" alt="" width="20" height="20">(21) 00000-0000</p>
+          <a class="col-12 col-lg-6 mb-3 d-flex align-items-center" href="" style="color: #000;"><img class="mx-2" src="./img/email.png" alt="" width="20" height="20"> CONTATO@GMGEDUCAÇÃO.COM</a>
+        </div>
+      </div>
+      <div class=" col-12 col-sm-2  mt-3 d-flex flex-sm-column flex-lg-row pb-2 text-center align-items-center cursor-pointer">
+        <img src="./img/facebook.png" alt="Facebook" width="30" height="30" class="me-lg-3 mb-2 mx-2">
+        <img src="./img/whatsapp.png" alt="whatsapp" width="30" height="30" class="me-lg-3 mb-2 mx-2" >
+        <img src="./img/instagram.png" alt="Instagram" width="30" height="30" class="me-lg-3 mb-2 mx-2">
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+
+<script>
+  // Adicionando comportamento ao botão de hamburguer
+  const navToggleBtn = document.querySelector('.navbar-toggler');
+  navToggleBtn.addEventListener('click', function () {
+    const emailSocials = document.querySelector('.email-socials');
+    emailSocials.classList.toggle('order-first');
+  });
+</script>
+
+</html>
