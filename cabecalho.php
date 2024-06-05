@@ -109,11 +109,10 @@ if($url == "contatos"){
             <div class="menu-header-dilistav">
                 <button class="btn-hamburguer" aria-expanded="false" aria-controls="menu">Menu</button>
                 <ul class="menu-header lista" >
-                  <li><a href="./sobre.php">SOBRE NÓS</a></li>
+                    <li><a href="./sobre.php">SOBRE NÓS</a></li>
                     <li><a href="./cursos.php">CURSOS</a></li>
                     <li><a href="./rhmais.php">RH MAIS</a></li>
-                    <li class="login">
-                        <a href="/"> ENTRE / INSCREVA-SE</a>
+                    <li class="login"><a href="/"> ENTRE / INSCREVA-SE</a>
                     </li>
                 </ul>
             </div>
