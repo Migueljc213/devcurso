@@ -3,506 +3,104 @@ require_once("cabecalho.php");
 ?>
 
 
-<br>
-
-<hr>
-
-  <section id="about-page-section-3">
-
-        <div class="container">
-
-            <div class="row">
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-7 text-align">
-
-                    <div class="section-heading">
-
-                        <h2>Sobre <span>Nós</span></h2>
-
-                        <p class="subheading">Confira uma breve apresentação de nossa Escola:</p>
-
-                    </div>
-
-                    <p style="margin-top: -15px">
-
-                        Sou Vinícius Almeida Fundador do portal de DevCurso, nossa escola de cursos profissionalizantes foi fundada em 2021, já temos mais de 1 mil alunos em nossos treinamentos, decidi criar esse portal para ajudar quem busca aprender sobre programação e deseja desenvolver sistemas práticos de acordo com a necessidade real do mercado de trabalho.
-
-
-
-                        <br><br> <i class="neutra">Assista ao vídeo para saber um pouco mais sobre nossa proposta de ensino.</i>
-
-
-
-                    </p>
-
-                 
-
+<main>
+        <article class="background-banner-sobre">
+            <div class="container container-banner-sobre">
+                <div>
+                    <img src="./img/BannerLayerSobre.svg" alt="" width="600px">
                 </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
-
-                    <?php if($video_sobre != ""){
-                        ?>
-                         <iframe class="video-mobile" width="100%" height="280" src="<?php echo $video_sobre ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="target-video"></iframe>
-                        <?php } ?>
-
-                   
-                  
-
+                <div class="titulo-banner-sobre">
+                    <h1>conheça a 
+                        nossa <strong> história. </strong></h1>
                 </div>
-
+               
             </div>
-
-        </div>
-
-    </section>
-
-
-
-      <section id="features-page">
-
-        <div class="subsection1">
-
-            <div class="container">
-
-                <div class="section-heading text-center">
-
-                    <h1>Confira <span>Nossas Vantagens</span></h1>
-
-                    <p class="subheading">Escola Portal DevCurso</p>
-
-                </div>
-
-                <div class="col sm_12">
-
-                    <div class="col-sm-4 wpb_column block">
-
-                        <div class="wpb_wrapper">
-
-                            <div class="flip">
-
-                                <div class="iconbox iconbox-style icon-color card clearfix">
-
-                                    <div class="face front">
-
-                                        <table>
-
-                                            <tbody>
-
-                                                <tr>
-
-                                                    <td>
-
-                                                        <i class="fa fa-laptop boxicon"></i>
-
-                                                        <h3>Acesso imediato e vitalício</h3>
-
-                                                    </td>
-
-                                                </tr>
-
-                                            </tbody>
-
-                                        </table>
-
-                                    </div>
-
-                                    <div class="iconbox-box2 face back">
-
-                                        <table>
-
-                                            <tbody>
-
-                                                <tr>
-
-                                                    <td>
-
-                                                        <h3>Acesso imediato e vitalício</h3>
-
-                                                        <p>Aqui na DevCurso você inicia imediatamente seus estudos e pode estudar com toda tranquilidade com a garantia de acesso vitalício.</p>
-
-                                                    </td>
-
-                                                </tr>
-
-                                            </tbody>
-
-                                        </table>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-4 wpb_column block">
-
-                        <div class="wpb_wrapper">
-
-                            <div class="flip">
-
-                                <div class="iconbox  iconbox-style icon-color card clearfix">
-
-                                    <div class="iconbox-box1 face front">
-
-                                        <table>
-
-                                            <tbody>
-
-                                                <tr>
-
-                                                    <td>
-
-                                                        <i class="fa fa-bullhorn boxicon"></i>
-
-                                                        <h3>Suporte direto com Professor</h3>
-
-                                                    </td>
-
-                                                </tr>
-
-                                            </tbody>
-
-                                        </table>
-
-                                    </div>
-
-                                    <div class="iconbox-box2 face back">
-
-                                        <table>
-
-                                            <tbody>
-
-                                                <tr>
-
-                                                    <td>
-
-                                                        <h3>Suporte direto com Professor</h3>
-
-                                                        <p>Aqui na DevCurso, seu aprendizado é garantido, pois além do excelente conteúdo das aulas, você ainda conta com suporte individual, direto com Professor Vinícius.</p>
-
-                                                    </td>
-
-                                                </tr>
-
-                                            </tbody>
-
-                                        </table>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-4 wpb_colum block">
-
-                        <div class="wpb_wrapper">
-
-                            <div class="flip">
-
-                                <div class="iconbox  iconbox-style icon-color card clearfix">
-
-                                    <div class="iconbox-box1 face front">
-
-                                        <table>
-
-                                            <tbody>
-
-                                                <tr>
-
-                                                    <td>
-
-                                                        <i class="fa fa-support boxicon"></i>
-
-                                                        <h3>Garanta sua Certificação</h3>
-
-                                                    </td>
-
-                                                </tr>
-
-                                            </tbody>
-
-                                        </table>
-
-                                    </div>
-
-                                    <div class="iconbox-box2 face back">
-
-                                        <table>
-
-                                            <tbody>
-
-                                                <tr>
-
-                                                    <td>
-
-                                                        <h3>Garanta sua Certificação</h3>
-
-                                                        <p>Disponibilizamos Certificados Profissionalizantes em todos nossos cursos.</p>
-
-                                                    </td>
-
-                                                </tr>
-
-                                            </tbody>
-
-                                        </table>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
+        </article>
+
+        <section class="background-lorem-sobre">
+            <div class="container-lorem-sobre">
+                <h1 class="titulos titulo-lorem-sobre">Lorem Ipsum</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+                    <br> <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+                    <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+                    <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis</p>
             </div>
+        </section>
 
-        </div>
-
-
-
-
-
-        <div class="subsection2">
-
-            <div class="container">
-
-                <div class="col-xs-12 col-sm_12 col-md-12 col-lg-12 left">
-
-                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 wpb_column">
-
-                        <div class="wpb_wrapper">
-
-                            <h3>Estude em nossa Escola </h3>
-                            <p>Com nossos treinamentos você estará apto para entregar ao mercado de trabalho suas principais demandas, aprenda a desenvolver diversos tipos de projetos e conquiste seus clientes em várias áreas comerciais.
-                            </p>
-
-                            <hr>
-
+        <section class="background-em-numeros">
+            <div class="container-em-numero">  
+                <h1 class="titulos titulo-em-numero">EM NÚMEROS</h1>
+                <div class="">
+                    <div class= "grid-em-numeros">
+                        <div class="">
+                            <img src="./img/iconeAlunos.svg" alt="">
+                            <h2>ALUNOS</h2>
+                            <span>+99999</span>
                         </div>
-
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 wpb_column block">
-
-                        <div class="wpb_wrapper">
-
-                            <div class="iconbox iconbox-style-2 icon-color clearfix">
-
-                                <div class="iconbox-icon">
-
-                                    <i class="fa fa-lightbulb-o sl-layers boxicon"></i>
-
-                                </div>
-
-                                <div class="iconbox-content">
-
-                                    <h4>Projetos Práticos</h4>
-
-                                    <p>Nossos projetos são práticos, e entregam tudo que o seu cliente realmente precisa!</p>
-
-                                </div>
-
-                            </div>
-
-                            <div class="spacer"></div>
-
-                            <div class="iconbox iconbox-style-2 icon-color clearfix">
-
-                                <div class="iconbox-icon">
-
-                                    <i class="fa fa-magic sl-book-open boxicon"></i>
-
-                                </div>
-
-                                <div class="iconbox-content nomargin">
-
-                                     <h4>Fácil Implantação</h4>
-
-                                    <p>Nossos projetos contam com os fontes completos, você poderá fazer a implantação aos seus clientes com facilidade! </p>
-
-                                  
-
-                                </div>
-
-                            </div>
-
+                        <div class="">
+                            <img src="./img/iconeAprovacao.svg" alt="">
+                            <h2>APROVAÇÃO</h2>
+                            <span>+99999</span>
                         </div>
-
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 wpb_column">
-
-                        <div class="wpb_wrapper">
-
-                            <div class="iconbox iconbox-style-2 icon-color clearfix">
-
-                                <!-- icon-color-greyscale -->
-
-                                <div class="iconbox-icon">
-
-                                    <i class="fa fa-cloud-download sl-badge boxicon"></i>
-
-                                </div>
-
-                                <div class="iconbox-content">
-
-                                    <h4>Alta Demanda</h4>
-
-                                    <p>O mercado busca por estas soluções, e será você quem irá suprir toda esta demanda! </p>
-
-                                </div>
-
-
-                            </div>
-
-                            <div class="spacer"></div>
-
-                            <div class="iconbox iconbox-style-2 icon-color clearfix">
-
-                                <div class="iconbox-icon">
-
-                                    <i class="fa fa-cog sl-check boxicon"></i>
-
-                                </div>
-
-                                <div class="iconbox-content nomargin">
-
-                                    <h4>Desenvolvimento Prático</h4>
-
-                                    <p>Tanto para quem já tem experiência com a programação ou para quem quer iniciar, temos os melhores projetos, para que você tenha sucesso em sua carreira.</p>
-
-                                </div>
-
-                            </div>
-
+                        <div class="">
+                            <img src="./img/iconeSatisfacao.svg" alt="">
+                            <h2>SATISFAÇÃO</h2>
+                            <span>+99999</span>
                         </div>
-
                     </div>
-
                 </div>
+            </div>   
+        </section>
 
-            </div>
-
-        </div>
-
-
-
-        <div class="subsection3" style=" overflow-x:hidden;">
-
-
-
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-md-6 col-sm-6 col-xs-12 left-section">
-
-                        <div class="subfeature">
-
-                            <div class="col-md-12 col-sm-12 col-xs-12">
-
-                                <h1><span>Torne-se um </span>programador de sucesso:</h1>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
-
-                    <div class="col-md-6 col-sm-6 col-xs-12 right-section right-background">
-
-                        <div class="subfeature">
-
-                            <div class="featureblock">
-
-                                <div class="col-md-2 col-xs-2 icon"><i class="fa fa-laptop feature_icon"></i></div>
-
-                                <div class="col-md-10 col-xs-10">
-
-                                    <h4>Qualifique-se</h4>
-
-                                    <p>Estude conosco para ampliar seus conhecimentos e esteja preparado para o mercado de trabalho.</p>
-
-                                </div>
-
-                            </div>
-
-                            <div class="featureblock">
-
-                                <div class="col-md-2 col-xs-2 icon"><i class="fa fa-bullhorn feature_icon"></i></div>
-
-                                <div class="col-md-10 col-xs-10">
-
-                                    <h4>Aprenda de maneira pática</h4>
-
-                                    <p>Todos os nossos treinamentos são práticos, e nossos projetos são desenvolvidos do zero, para que o aluno aprenda de verdade!</p>
-
-                                </div>
-
-                            </div>
-
-                            <div class="featureblock nomargin">
-
-                                <div class="col-md-2 col-xs-2 icon"><i class="fa fa-support feature_icon"></i></div>
-
-                                <div class="col-md-10 col-xs-10">
-
-                                    <h4>Leque Variado</h4>
-
-                                    <p>Oferecemos muitos projetos para que você tenha um leque completo e variado, para atender vários nichos de mercado!</p>
-
-
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-
-
-                    </div>
-
-
-
+        <section class="background-lorem">
+            <div class="container-lorem">
+                <h1 class="titulos titulo-lorem">LOREM IPSUM</h1>
+                <div class="grid-lorem">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. <br>
+                        <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                    <img src="./img/Lorem-img.svg" alt="">
                 </div>
-
             </div>
-
+        </section>
+        
+        <section>
+            <h1 class="titulos titulo-depoimentos">DEPOIMENTOS</h1>
+           <div class="background-depoimentos">
+                <div class="grid-depoimentos">
+                    <div class="depoimentos">
+                        <img src="./img/fotoPerfil.svg" alt="" width="80px">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+                    </div>
+                    <div class="depoimentos">
+                        <img src="./img/fotoPerfil2.svg" alt="" width="80px">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <article class="background-contato-sobre">
+        <h1 class="titulo-contato-sobre">CONTATO</h1>
+        <div class="container-contato">
+           
+            <h2>Lorem Ipsum sit dolor</h2>
+            <div class="card-contato">
+                <form class="form-contato" action="" method="post">
+                    <input type="text" name="nome-contato" id="nome-contato" placeholder="Nome">
+                    <input type="email" name="email-contato" id="email-contato" placeholder="Email">
+                    <input type="number" name="telefone-contato" id="telefone-contato" placeholder="Telefone">
+                    <textarea name="mensagem" id="mensagem" placeholder="Mensagem" rows="8" cols="50"></textarea>
+                
+                </form>
+                <div class="endereco">
+                    <p >RIO DE JANEIRO - R. Crispim Assis Pereira, 175 - São Geraldo, Rio de Janeiro - RJ, 27253-520</p>
+                    <button type="submit">ENVIAR</button>
+                    
+                </div>
+            </div>
         </div>
-
-
-
-    </section>
-
-
-
-
-
-
-
-<br>
-
-<hr>
-
-
+    </article>
+        
 
 <?php 
 
